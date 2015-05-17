@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <h1>Rock-Paper-Scissors</h1>
+  <h2>May the best hand win!</h2>
+</head>
+
+<body>
+
+  <p>Please enter your name and answer the following question to play game</p>
+  <p>What planet is Spock from?</p>
+
+  <form action="index" method="post">
+      <p>Enter your name: <input type="text" name="player"</p>
+      <p>Enter login answer: <input type="text" name="answer"</p>
+            <input type="submit" value="Start Game">
+  </form>
+
+  <button type="button"><a href="/new_game">Start Game</a></button>
+
+  <p>
+
+    <font color=<%= @msg_color %> size="12"> <B> <%= @error_msg %> </font> </B>
+
+  </p>
+
+
+
+</body>
+
+
+</html>
