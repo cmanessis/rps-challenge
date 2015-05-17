@@ -14,10 +14,6 @@ When(/^I enter Player Name$/) do
   fill_in('player', with: "Chris")
 end
 
-When(/^I enter login answer$/) do
-  fill_in('answer', with: 'Vulcan')
-end
-
 When(/^I click the "([^"]*)" button$/) do |arg1|
   click_button(arg1)
 end

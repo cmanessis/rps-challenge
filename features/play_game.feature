@@ -6,9 +6,7 @@ Feature: Starting Rock,Paper,Scissors
   Scenario: Homepage
     Given I am on the homepage
     Then I should see "Enter your name"
-    And I should see "Enter login answer"
     And I should see "Start Game" button
     When I enter Player Name
-    And I enter login answer
     And I click the "Start Game" button
     Then I should be redirected to the '/new_game' page
